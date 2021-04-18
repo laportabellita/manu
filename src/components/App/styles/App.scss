@@ -1,0 +1,13 @@
+@import  '../../../utils/scss/colors';
+@import '../../../utils/scss/mixins';
+
+.title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: $black-60;
+}
+
+.noSelect {
+  user-select: none;
+}
